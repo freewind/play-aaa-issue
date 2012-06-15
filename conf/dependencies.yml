@@ -1,0 +1,15 @@
+# Application dependencies
+
+require:
+    - com.gelinsoft -> aaa 1.2j
+    - play -> morphia 1.2.8-RC1
+    - play -> rythm 1.0.0-RC6
+    - play -> crud
+    - play -> secure
+
+repositories:
+    - gelinsoft:
+        type: http
+        artifact: "http://gelinsoft.com/play/repo/[module]-[revision].zip"
+        contains:
+            - com.gelinsoft -> *
